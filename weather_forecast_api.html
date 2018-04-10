@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Weather Forecast APP</title>
+		<meta name="Weather Forecast" content="Weather Forecast">
+		<!-- link to remote google jquery library -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- link to customized local jquery -->
+		<script type="text/javascript" src="jscript.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<div id="searchCity" class="well">
+				<form method="get" id="weather">
+					<label>
+						Enter City: <input id="place" type="text" name="city">
+					</label>
+					<label>
+						<input type="submit" name="searchWeather" value="Weather" class="btn btn-default">
+					</label>
+				</form>	
+			</div>
+			<div>
+				<div class="place"></div>
+				<div class="temp"></div>
+			</div>
+			
+		</div>
+	</body>
+</html>
